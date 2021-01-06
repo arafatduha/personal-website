@@ -5,10 +5,28 @@ padding: 0;
 }
 
 .header{
-    background-color:aqua;
     margin:0;
     padding:0;
     height: 50px;
+}
+
+.nav{
+
+}
+.nav ul{
+
+    
+}
+.nav li{
+    display: inline;
+    float: left;
+}
+.nav a{
+    display: block;
+    padding:8px;
+    text-decoration: none;
+    color:black;
+    
 }
 
 .section{
@@ -18,9 +36,12 @@ padding: 0;
 
 .left-section{
     float:left;
-    background-color: azure;
     height: 400px;
     width: 50%;
+}
+.st{
+    font-size:40px;
+    color: #f76760;
 }
 
 .text-area{
@@ -28,22 +49,34 @@ padding: 0;
     color:teal;
 
 }
-btn{
-    background-color: violet;
-}
+.btn {
+        background-color: #f76760;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
 
 .right-section{
-    background-color:brown;
     height: 400px;
     width: 50%;
     display: inline-block;
     
 }
 
+.img-section{
+   
+}
+
+.img-section img{
+    padding-left: 40px;
+}
 
 .left-article{
     float:left;
-    background-color:chartreuse;
     height: 400px;
     width: 50%;
 }

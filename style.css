@@ -4,17 +4,14 @@ background-color:white;
 margin:0;
 padding: 0;
 }
-
 .section{
-   padding-left-50px;
+   padding-left: -50px;
 }
-
 .header{
     margin:0;
     padding:0;
     height: 50px;
 }
-
 .nav{
 float:right;
 padding-right:20px;
@@ -23,7 +20,6 @@ font-weight: bold;
 }
 .nav ul{
 
-    
 }
 .nav li{
     display: inline;
@@ -34,36 +30,26 @@ font-weight: bold;
     padding:8px;
     text-decoration: none;
     color: #f76760;
-    
 }
-
 .section{
     padding:0px;
 }
-
-
 .left-section{
     float:left;
     height: 400px;
     width: 50%;
-    
 }
 .st{
     font-size:45px;
     color: #f76760;
 }
-
 .text-area{
-  
     padding-left:80px;
     color:teal;
-
 }
 .text-area p{
     font-family: 'Bebas Neue', cursive;
 }
-
-
 .btn1 {
     background-color:  #2592A9;
     color: white;
@@ -74,15 +60,10 @@ font-weight: bold;
     text-decoration: none;
     display: inline-block;
   }
-  
+
   .btn1:hover, a:hover{
     background-color:  #56c5db;
   }
-
-
-
-
-
 .btn {
         position: relative;
         background-color: #2592A9;
@@ -99,7 +80,6 @@ font-weight: bold;
         overflow: hidden;
         cursor: pointer;
       }
-
 .btn:hover {
         content: "";
         background:  #56c5db;
@@ -112,48 +92,38 @@ font-weight: bold;
         opacity: 0;
         transition: all 0.9s
       }
-      
-
-
 .btn:active:after {
         padding: 0;
         margin: 0;
         opacity: 1;
         transition: 0s
       }
-
-
 .right-section{
     height: 400px;
     width: 50%;
     display: inline-block;
     
 }
-
 .img-section{
   
 }
-
 .img-section img{
     padding-left: 40px;
     height: 550px;
     width: 550px;
 }
-
 .left-article{
     padding-left: 20px;
     float:left;
     height: 400px;
     width: 49%;
 }
-
 .right-article{
     height: 400px;
     width: 49%;
     display: inline-block;
     
 }
-
 .txt{
     font-size: 50px;
     text-align: left;
@@ -163,8 +133,6 @@ font-weight: bold;
     
     width:500px;
 }
-
-
 .project{
     background-color:rgb(243, 239, 239);
     text-align: center;
@@ -172,19 +140,15 @@ font-weight: bold;
     width: 90%;
     margin: 0 auto;
     padding-top:20px;
-    
-
 }
 .project-p1{
     font-size:20px;
 }
-
 .project p {
     font-size:20px;
     font-weight: bold;
     padding-bottom: 20px;
 }
-
 .my-project{
     padding-left: 100px;
     width:100%;
@@ -192,7 +156,6 @@ font-weight: bold;
     height: 300px;
     
 }
-
 .first-project{
     padding:25px;
     margin:5px;
@@ -205,9 +168,6 @@ font-weight: bold;
     padding:15px;
    
 }
-
-
-
 .second-project{
     padding:15px;
     margin:5px;
@@ -220,9 +180,6 @@ font-weight: bold;
     padding:15px;
    
 }
-
-
-
 .third-project{
     padding:15px;
     margin:5px;
@@ -233,22 +190,15 @@ font-weight: bold;
     box-shadow: 10px 10px 40px;
     border-radius: 10px;
     padding:15px;
-   
 }
-
 .my-project img{
     width: 300px;
     height: 250px;
 }
-
 .pt1{
     color: #f76760;
     
 }
-
-
-
-
 .footer{
     padding-top:90px;
     text-align: center;

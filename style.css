@@ -61,7 +61,7 @@ font-weight: bold;
     display: inline-block;
   }
 
-  .btn1:hover, a:hover{
+  .btn1:hover{
     background-color:  #56c5db;
   }
 .btn {

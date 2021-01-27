@@ -1,5 +1,5 @@
 body{
-    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
 background-color:white;
 margin:0;
 padding: 0;
@@ -17,9 +17,6 @@ float:right;
 padding-right:20px;
 font-size: 20px;
 font-weight: bold;
-}
-.nav ul{
-
 }
 .nav li{
     display: inline;
@@ -46,23 +43,28 @@ font-weight: bold;
 .text-area{
     padding-left:80px;
     color:teal;
+    overflow: hidden;
 }
 .text-area p{
     font-family: 'Bebas Neue', cursive;
+    
 }
+
 .btn1 {
     background-color:  #2592A9;
     color: white;
     font-weight: bold;
     font-size: 30px;
     padding: 15px 25px;
+    border-radius: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
   }
-
   .btn1:hover{
     background-color:  #56c5db;
+    transform: scale(1.2);
+    transition: transform 2s;
   }
 .btn {
         position: relative;
@@ -74,10 +76,9 @@ font-weight: bold;
         padding: 20px;
         width: 200px;
         text-align: center;
-        -webkit-transition-duration: 0.4s !important; /* Safari */
+        -webkit-transition-duration: 0.4s !important; 
         transition-duration: 0.4s;
         text-decoration: none;
-        overflow: hidden;
         cursor: pointer;
       }
 .btn:hover {
@@ -90,7 +91,7 @@ font-weight: bold;
         margin-left: -20px!important;
         margin-top: -120%;
         opacity: 0;
-        transition: all 0.9s
+        transition: all 0.9s;
       }
 .btn:active:after {
         padding: 0;
@@ -102,10 +103,6 @@ font-weight: bold;
     height: 400px;
     width: 50%;
     display: inline-block;
-    
-}
-.img-section{
-  
 }
 .img-section img{
     padding-left: 40px;
@@ -140,6 +137,7 @@ font-weight: bold;
     width: 90%;
     margin: 0 auto;
     padding-top:20px;
+    border-radius: 10px;
 }
 .project-p1{
     font-size:20px;
@@ -153,44 +151,19 @@ font-weight: bold;
     padding-left: 100px;
     width:100%;
     text-align: center;
-    height: 300px;
-    
+    height: 300px; 
 }
-.first-project{
-    padding:25px;
-    margin:5px;
-    float:left;
-    width: 300px;
-    height: 250px;
-    
-    box-shadow: 10px 10px 40px;
-    border-radius: 10px;
-    padding:15px;
-   
-}
-.second-project{
+.projectstyle {
     padding:15px;
     margin:5px;
     float:left;
     width: 300px;
     height: 250px;
-    
-    box-shadow: 10px 10px 40px;
-    border-radius: 10px;
-    padding:15px;
-   
-}
-.third-project{
-    padding:15px;
-    margin:5px;
-    float:left;
-    width: 300px;
-    height: 250px;
-    
     box-shadow: 10px 10px 40px;
     border-radius: 10px;
     padding:15px;
 }
+
 .my-project img{
     width: 300px;
     height: 250px;
